@@ -59,17 +59,28 @@
         </div>
       </nav>
     <!-- Hero Section -->
-    <div class="bg-no-repeat h-screen bg-center bg-cover flex justify-center items-center" style="background-image: url('./images/forest.jpg')">
+    <div class="relative bg-no-repeat h-screen bg-center bg-cover flex justify-center items-center" id="hero" style="background-image: url('./images/forest.jpg')">
         <div class="text-center font-bold mb-60 w-1/2">
             <h1 class="lg:text-6xl sm:text-6xl text-4xl mb-10 text-white hover:text-sky-900 duration-300">Breaking boundries one step at a time</h1>
             <h2 class="text-white pb-8">Explore the earth from a never before seen view!</h2>
             <button class="bg-green-500 w-1/2 hover:bg-white sm:w-full md: text-gray-800 font-semibold py-2 px-4 rounded-2xl shadow">Learn More</button>
             
         </div>
-        <div class="absolute h-32 w-32 ml-96">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute inset-y-0 right-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-          </svg>
+        <!-- Right arrow -->
+        <div class="absolute h-32 w-32 inset-y-0 right-0 top-1/2">
+          <a id="right-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 hover:stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="white">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+        </a>
+        </div>
+        <!-- left arrow -->
+        <div class="absolute h-32 w-32 inset-y-0 left-0 top-1/2">
+          <a id="left-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 absolute top-0 right-0 hover:stroke-green-500" fill="none" viewBox="0 0 24 24" stroke="white">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+          </a>
         </div>
     </div>
     

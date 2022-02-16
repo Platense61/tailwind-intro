@@ -531,6 +531,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0px;
 }
 
+.top-1\/2 {
+  top: 50%;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -554,22 +566,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mb-80 {
-  margin-bottom: 20rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
-.ml-80 {
-  margin-left: 20rem;
-}
-
-.ml-96 {
-  margin-left: 24rem;
 }
 
 .block {
@@ -604,6 +600,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 8rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -620,8 +620,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 8rem;
 }
 
-.w-16 {
-  width: 4rem;
+.w-12 {
+  width: 3rem;
 }
 
 .flex-col {
@@ -681,16 +681,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -714,16 +704,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.object-none {
-  -o-object-fit: none;
-     object-fit: none;
-}
-
-.object-right {
-  -o-object-position: right;
-     object-position: right;
 }
 
 .p-2 {
@@ -752,14 +732,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pb-8 {
   padding-bottom: 2rem;
-}
-
-.pb-80 {
-  padding-bottom: 20rem;
-}
-
-.pl-96 {
-  padding-left: 24rem;
 }
 
 .text-center {
@@ -809,6 +781,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -836,6 +813,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:stroke-green-500:hover {
+  stroke: #22c55e;
 }
 
 .hover\:text-black:hover {
