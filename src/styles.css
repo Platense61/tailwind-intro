@@ -543,6 +543,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   top: 0px;
 }
 
+.float-left {
+  float: left;
+}
+
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -781,11 +789,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -863,6 +866,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .sm\:w-full {
     width: 100%;
   }
@@ -872,6 +879,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 1rem;
   }
 
+  .sm\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -879,6 +890,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
+  .md\:inset-y-0 {
+    top: 0px;
+    bottom: 0px;
+  }
+
+  .md\:left-0 {
+    left: 0px;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -903,6 +923,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .md\:text-sm {
